@@ -50,7 +50,7 @@ let shuffleEmojis = emojis.sort(() => (Math.random() > 0.5 ? 2: -1))
 
     openCards = [];
 
-    if(document.querySelectorAll("boxMatch").length == emojis.length) {
+    if(document.querySelectorAll(".boxMatch").length == emojis.length) {
         alert("VOCÊ GANHOU !")
     }
  }
